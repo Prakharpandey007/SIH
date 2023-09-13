@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap');
+
+.flip-effect:hover{
+    transform: rotateX(360deg); /* Rotate the element 180 degrees on the X-axis */
+    transition: transform 0.3s ease; 
+}
+
+
+
+.p1:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+.p2:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+.p3:hover{
+    text-decoration: underline;
+    background-color: black;
+}
+.d-block{
+    height: 550px;
+}
+.h1{
+   text-align: center;
+   background-color: black;
+   color:cornsilk;
+}
+.g20{
+    height: 200px;
+    width: 250px;
+}
+.heading{
+    font-family: 'Bungee Hairline', cursive;
+}
+.pic-1{
+    height: 300px;
+    width:450px;
+
+}
+.pic-2{
+    height: 300px;
+    width:450px;
+}
+.pic-3{
+    height: 300px;
+    width:450px;
+}
+
+#images{
+    display: flex;
+    gap: 41px;
+}
+.end-bar{
+   background-color: black;
+    
+}
+.underline{
+text-decoration: underline;
+}
+.link-white{
+    color: white;
+}
+.footer1
+{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.marquee{
+    background-image: linear-gradient(to bottom right, Black, grey);
+    display: flex;
+    align-items: center;
+}
+.updates{
+    color: white;
+}
+.links{
+    display: flex;
+    width: 100%;
+}
+.l1{
+    text-decoration: none;
+    color: white;
+}
+.l1:hover{
+    text-decoration: underline;
+    animation-delay: 0.5s;
+}
+.sec{
+    margin:0;
+}
+.mnv{
+    margin-top:0;
+}
+.end{
+    width: 100%;
+    /*position: absolute;
+    bottom: 0;*/
+    background: linear-gradient(to right, #00093c,#2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+}
+@media (max-width: 1250px)
+{
+    .footer1{
+        display: flex;
+        gap:10px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
